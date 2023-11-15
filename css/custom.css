@@ -124,7 +124,7 @@ header .header-support:hover {
 }
 .banner-sec .health-form .search-ul {
   margin: 20px 0px 0px 0px;
-  border: 2px solid #DADADA;
+  border: 2px solid #dadada;
   background-color: white;
 }
 .banner-sec .health-form .search-ul .col-same-search {
@@ -177,7 +177,7 @@ header .header-support:hover {
   -o-border-radius: 100px;
   padding: 0px 20px;
 }
-.banner-sec .health-form .ssri input[type=checkbox] {
+.banner-sec .health-form .ssri input[type="checkbox"] {
   width: 20px;
   border: none;
   height: 20px;
@@ -190,7 +190,7 @@ header .header-support:hover {
 }
 .banner-sec .car-form .search-ul {
   margin: 20px 0px 0px 0px;
-  border: 2px solid #DADADA;
+  border: 2px solid #dadada;
   background-color: white;
 }
 .banner-sec .car-form .search-ul .col-same-search {
@@ -252,7 +252,7 @@ header .header-support:hover {
   -o-border-radius: 100px;
   padding: 0px 20px;
 }
-.banner-sec .car-form .ssri input[type=checkbox] {
+.banner-sec .car-form .ssri input[type="checkbox"] {
   width: 20px;
   border: none;
   height: 20px;
@@ -265,7 +265,7 @@ header .header-support:hover {
 }
 .banner-sec .bike-form .search-ul {
   margin: 20px 0px 0px 0px;
-  border: 2px solid #DADADA;
+  border: 2px solid #dadada;
   background-color: white;
 }
 .banner-sec .bike-form .search-ul .col-same-search {
@@ -325,7 +325,7 @@ header .header-support:hover {
   -o-border-radius: 100px;
   padding: 0px 20px;
 }
-.banner-sec .bike-form .ssri input[type=checkbox] {
+.banner-sec .bike-form .ssri input[type="checkbox"] {
   width: 20px;
   border: none;
   height: 20px;
@@ -338,7 +338,7 @@ header .header-support:hover {
 }
 .banner-sec .commercial-form .search-ul {
   margin: 20px 0px 0px 0px;
-  border: 2px solid #DADADA;
+  border: 2px solid #dadada;
   background-color: white;
 }
 .banner-sec .commercial-form .search-ul .col-same-search {
@@ -400,7 +400,7 @@ header .header-support:hover {
   -o-border-radius: 100px;
   padding: 0px 20px;
 }
-.banner-sec .ssri input[type=checkbox] {
+.banner-sec .ssri input[type="checkbox"] {
   width: 20px;
   border: none;
   height: 20px;
@@ -485,7 +485,7 @@ header .header-support:hover {
     text-align: center;
   }
   .banner-sec h1,
-.banner-sec h5 {
+  .banner-sec h5 {
     text-align: center;
   }
   .banner-sec .ul-box ul {
@@ -649,7 +649,8 @@ header .header-support:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.chat-button-destroy:focus, .chat-open-dialog:focus {
+.chat-button-destroy:focus,
+.chat-open-dialog:focus {
   outline: none;
 }
 
@@ -796,7 +797,8 @@ button.chat-button-destroy.active {
   width: 200%;
 }
 
-.chat-popup .chat-windows .chat-window-one, .chat-popup .chat-windows .chat-window-two {
+.chat-popup .chat-windows .chat-window-one,
+.chat-popup .chat-windows .chat-window-two {
   float: left;
   width: 50%;
   height: 100%;
@@ -843,7 +845,7 @@ button.chat-button-destroy.active {
   font-size: 18px;
   letter-spacing: 1px;
   padding: 15px 0;
-  background: #27AAC2;
+  background: #27aac2;
   color: white;
 }
 
@@ -881,7 +883,8 @@ button.chat-button-destroy.active {
   border: none;
 }
 
-form#chatForm button.chat-button.inactive-chat.active, form#chatForm button.chat-button {
+form#chatForm button.chat-button.inactive-chat.active,
+form#chatForm button.chat-button {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   -ms-transition: all ease 0.5s;

@@ -9731,3 +9731,17 @@ window.theme.fn = {
 	});
 
 }).apply(this, [window.theme, jQuery]);
+
+<script>
+    const popupButton = document.getElementById('popupButton');
+    const popupContainer = document.getElementById('popupContainer');
+    const closeButton = document.getElementById('closeButton');
+
+    popupButton.addEventListener('click', () => {
+        popupContainer.style.display = 'block';
+    });
+
+    closeButton.addEventListener('click', () => {
+        popupContainer.style.display = 'none';
+    });
+</script>
